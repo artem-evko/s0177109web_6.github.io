@@ -152,7 +152,28 @@ h6 {
 	margin-bottom: 50px;
 	text-align: center;
 }
+.menu {
+  text-align: center;
+  background-color: #a1bce9;
+  padding: 10px;
+}
 
+/* Стилизация выпадающего списка */
+.menu select {
+  padding: 7px;
+  font-size: 20px;
+  background-color: #fff;
+  color: #333;
+  border: none;
+  border-radius: 10px;
+}
+
+/* Стилизация опций списка (необязательно) */
+.menu select option {
+  background-color: #fff;
+  color: #333;
+  font-size: 16px;
+}
 .heading-title {
 	margin: 0;
 	margin-bottom: 15px;
@@ -163,8 +184,15 @@ h6 {
 	text-align: center;
 }
 
-/* .heading-desc {
-} */
+.block{
+	text-align: center;
+	font-size: 20px;
+	font-weight: 700;
+}
+.block p{
+	font-size: 20px;
+	font-weight: 500;
+}
 
 .calc-section {
 	padding: 40px 50px;
